@@ -49,7 +49,9 @@ h7 {
   font-size: 18px;
   font-weight: 200;
 }
-
+span{
+  color: #da0e9b;
+}
 hr:not([size]) {
   height: 2px;
   color: var(--modern-pink);
