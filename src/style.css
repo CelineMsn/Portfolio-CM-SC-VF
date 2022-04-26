@@ -22,11 +22,14 @@ h1 {
   padding: 50px 0;
   font-size: 90px;
 }
-h2 {
-  color: white;
-}
+
 h3 {
   color: black;
+}
+h4 {
+  color: white;
+  font-weight: 400;
+  font-size: 2rem;
 }
 h5 {
   font-weight: 600;
@@ -36,6 +39,12 @@ h5 {
 h6 {
   font-size: 18px;
   font-weight: 200;
+}
+h7{
+  color: black;
+  font-size: 18px;
+  font-weight: 200;
+}
 }
 hr:not([size]) {
   height: 3px;
@@ -95,6 +104,7 @@ a:hover {
   background: black;
   padding: 0;
 }
+
 .contact {
   margin: 0;
   padding: 0;
@@ -294,6 +304,7 @@ a .hyperlink:hover {
   max-width: 20%;
   padding: 2px;
 }
+
 .photo-margin p {
   color: white;
 }
@@ -359,6 +370,7 @@ a .hyperlink:hover {
   margin: 0;
   padding: 0;
 }
+
 .margin {
   margin: 50px;
 }
