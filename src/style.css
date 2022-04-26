@@ -23,6 +23,10 @@ h1 {
   font-size: 90px;
 }
 
+h2 {
+  color: #da0e9b;
+}
+
 h3 {
   color: black;
 }
@@ -40,15 +44,14 @@ h6 {
   font-size: 18px;
   font-weight: 200;
 }
-h7{
+h7 {
   color: black;
   font-size: 18px;
   font-weight: 200;
 }
-}
+
 hr:not([size]) {
-  height: 3px;
-  text-align: right;
+  height: 2px;
   color: var(--modern-pink);
   opacity: 1;
 }
@@ -118,10 +121,10 @@ a:hover {
   text-shadow: 2px 2px 8px rgba(25, 25, 25, 0.295);
 }
 .hero-about {
-  background: linear-gradient(1deg, #a70864, #400d61);
+  background: linear-gradient(1deg, #da0e9b, #2d10d1d5);
 }
 .hero-work {
-  background: linear-gradient(1deg, #a70864, #400d61);
+  background: linear-gradient(1deg, #da0e9b, #2d10d1d5);
 }
 .content-container {
   background: var(--secondary-colour);
@@ -147,7 +150,7 @@ a:hover {
 }
 .about-container .content-container:hover {
   color: white;
-  background: linear-gradient(68.6deg, #da0e9944, #650dc270);
+  background: linear-gradient(68.6deg, #da0e9b, #2d10d1d5);
 }
 
 .tile {
@@ -169,7 +172,7 @@ a:hover {
 }
 .content-container .about-container:hover {
   color: white;
-  background: linear-gradient(68.6deg, #da0e9944, #650dc270);
+  background: linear-gradient(68.6deg, #da0e9b, #2d10d1d5);
 }
 
 .btn {
